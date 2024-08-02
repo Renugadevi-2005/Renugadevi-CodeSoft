@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hd{
+    width: 100%;
+    height: 100%;
+    background: rgb(167, 206, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+ul,li{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 1em;
+    background-color: rgb(167, 206, 241); 
+}
+ul,a{
+    text-decoration: none;
+}
+.Singup a{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid red;
+}
+.Singup a:hover{
+    background-color: rgb(255, 248, 186);
+    transition: 0.7s;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;  
+}
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    color: rgb(247, 237, 219);
+}
+.heading h1{
+    font-size: 45px;
+}
+.heading p{
+    font-size: 70%;
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 20px 60px;
+    background-color: rgb(235, 225, 225);
+    letter-spacing: 1px;
+    transition: 0.6s;
+
+    
+}
+.heading a:hover{
+    background-color: rgb(128, 248, 188);
+    transition: 0.7s;
+}
+.tour{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.places{
+    display: inline;
+    text-align: center;
+    border-radius: 15px;
+}
+.places h2{
+    color: red;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    padding: 25px 25px;
+    background-color: rgb(250, 172, 204);
+}
+.places a{
+    text-decoration: none;
+    color: rgb(238, 3, 3);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 14px 32px;
+    background-color: rgb(231, 225, 213);
+}
+.places a:hover{
+    letter-spacing: 1px;
+    transition: 0.6s;
+    background-color: rgb(250, 172, 204);
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(120, 11, 221);
+    font-size: 20px;
+    font-weight: bold;
+}
+.header a:hover{
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+
+    
+   
+    
+     
+     
+
+    
+    

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Times 'Times New Roman', Times, serif Roman;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:#eff4fd;
+}
+
+ul,li{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 1em;
+    background-color: #00e1ff;
+}
+
+ul li a{
+    text-decoration: none;
+}
+h1{
+   display: flex;
+   margin-left: 10%;
+   margin-top: 14%;
+   font-family: Bashkerville Old Face;
+   font-size: 50px;
+   margin-bottom: 18px;
+}
+p{
+    margin-left: 10%;
+    font-size: 18px;   
+}
+button{
+    margin-left: 10%;
+    background-color: orange;
+    
+}
+img{
+    height: 350px;
+    position: absolute;
+    left: 65%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    transition: bottom is, right is;
+    width: 350px;
+    float: right;
+    border-radius: 50%;
+}
+
